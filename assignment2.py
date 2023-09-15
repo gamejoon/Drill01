@@ -27,6 +27,7 @@ turtle.onkey(move_up, "w")
 turtle.onkey(move_down, "s")
 turtle.onkey(move_right, "d")
 turtle.onkey(move_left, "a")
+turtle.onkey(turtle.reset, "Escape")
 turtle.listen()
 
 turtle.exitonclick()
